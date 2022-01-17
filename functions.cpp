@@ -55,8 +55,8 @@ void readResponses(ifstream &infile, string responses[], string categories[], in
 }
 
 void playMagicEightBall(string responses[], string categories[], int size) {
-	string userQuestion; // Declare space in memory for string userQuestion
-	int randomNumber;	 // Declare space in memory for int randomNumber
+	string userQuestion = ""; // Declare space in memory for string userQuestion
+	int randomNumber = 0;	 // Declare space in memory for int randomNumber
 
 	while (userQuestion != "Quit" && userQuestion != "quit") { // Start of the while loop that goes untill the user says "Quit" or "quit" and wants to stop playing.
 		cout << "Please ask the Magic Eight Ball any question that you want answered. Say \"Quit\" or \"quit\" to stop." << endl; // Display a message on the screen that says, "Please ask the Magic Eight Ball any question that you want answered. Say \"Quit\" or \"quit\" to stop."
